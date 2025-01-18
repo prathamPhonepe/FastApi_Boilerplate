@@ -1,6 +1,6 @@
-create a virtual env : python -m venv venv
-install the packages : pip install -r requirements.txt
+create a virtual env : python3 -m venv venv
 activate a virtual environment : source venv/bin/activate 
+install the packages : pip install -r requirements.txt
+start : python app.py
 stop the virtual environment : deactivate
 
-start : python app.py
